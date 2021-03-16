@@ -14,7 +14,7 @@ It is import that all shortened URLs are globally unique; for example, `https://
 
 You're free to implement the API using any database, let it be SQL, NoSQL, JSON, CSV, etc; the goal is to meet the above requirements. A frontend UI is not required.
 
-To get started:
+## To get started:
 1. Fork or clone this repo.
 2. Implement your code.
 3. Send us a link to your repo for review.
