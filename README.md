@@ -14,6 +14,13 @@ It is import that all shortened URLs are globally unique; for example, `https://
 
 You're free to implement the API using any database, let it be SQL, NoSQL, JSON, CSV, etc; the goal is to meet the above requirements. A frontend UI is not required.
 
+Some [considerations](https://restfulapi.net) when designing the API.
+
+## Bonuses
+- Validations and error-handlings.
+- Update and/or delete a reference.
+- Serverless implementation.
+
 ## To get started:
 1. Fork or clone this repo.
 2. Implement your code.
