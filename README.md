@@ -3,7 +3,7 @@
 Welcome to our API coding challenge. In this exercise, you'll create an URL-shortener API.
 
 Given any URL input via `POST`, your API should return a JSON with the following properties:
-- `short` - The shortened URL. Path should contain alphanumeric characters. e.g. `/aKfBeg`
+- `short` - The shortened URL. Path should contain 6 alphanumeric characters. e.g. `/aKfBeg`
 - `original` - The input URL.
 - `count` - This is the number of times the same given URL has been sent to your API for shortening regardless of which client sent it.
 
