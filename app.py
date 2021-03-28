@@ -78,7 +78,7 @@ def get_shoter_url():
         url_query = model_to_dict(models.Urls.get_by_id(new_query.id))
         return jsonify(data=url_query, status={"code": 201, "message": "New Url Created"}) 
     except:
-        return jsonify({"Bad Request": 'Code Paramater not found'}, status= status.HTTP_400_BAD_REQUEST)
+        return jsonify({"Bad Request": 'Code Paramater not found'}, status={"code": 400, "message": "Bad Request"} )
 
 
 
